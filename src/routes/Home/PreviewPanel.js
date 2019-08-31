@@ -29,6 +29,7 @@ const PreviewImage = styled.img`
   width: auto;
   max-width: 90%;
   height: auto;
+  max-height: 90vh;
 `;
 
 const CloseButtonContainer = styled.div`

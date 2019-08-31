@@ -48,6 +48,7 @@ const ResultImg = styled.img`
   height: auto;
   max-height: 80vh;
   width: auto;
+  max-width: 90vw;
 `;
 
 const ErrorImg = styled.img`
