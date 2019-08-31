@@ -16,6 +16,10 @@ const Container = styled.div`
   -moz-box-shadow: 8px 0 10px -6px #777;
   box-shadow: 8px 0 10px -6px #777;
   transition: all 0.6s;
+
+  @media (max-width: 450px) {
+    max-width: 100vw;
+  }
 `;
 
 const ImageContainer = styled.div`
