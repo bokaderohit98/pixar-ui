@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "watch": "watch 'npm run build' src"
+    "watch": "watch 'npm run build' src",
+    "postbuild": "cp -avr build ../"
   },
   "browserslist": [
     ">0.2%",
