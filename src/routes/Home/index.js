@@ -48,7 +48,7 @@ class Home extends Component {
     formData.append("file", this.state.imageFile);
 
     axios
-      .post("http://localhost:5000/api?pixify=True", formData)
+      .post("/api?pixify=True", formData)
       .then(res => {
         localStorage.setItem("resultImg", res.data);
         this.setState({
